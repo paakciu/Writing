@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <com.example.writing.NoteView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/fvFont"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal">
+            <Button android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_clearclass"
+                android:textColor="@drawable/btn_clearclasstextcolor"
+                android:id="@+id/btnReWrite"
+                android:text="重写"/>
+            <Button android:layout_width="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_clearclass"
+                android:textColor="@drawable/btn_clearclasstextcolor"
+                android:text="完成"
+                android:id="@+id/btnComplete"/>
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_fontbook_writing_settings">
+            </ImageView>
+            <Button android:layout_width="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnReBack"
+                android:background="@drawable/btn_clearclass"
+                android:textColor="@drawable/btn_clearclasstextcolor"
+                android:text="回放"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

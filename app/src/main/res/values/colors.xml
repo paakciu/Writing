@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "noclearclass">#0090ff</color>
+    <color name = "clearclass">#ffffff</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#f00</color>
+    <color name="green">#0f0</color>
+    <color name="blue">#0000ff</color>
+    <color name="black">#000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_light">#33b5e5</color>
+    <color name="blue_dark">#0099cc</color>
+    <color name="purple_light">#aa66cc</color>
+    <color name="purple_dark">#9933cc</color>
+    <color name="green_light">#99cc00</color>
+    <color name="green_dark">#669900</color>
+    <color name="yellow_light">#ffbb33</color>
+    <color name="yellow_dark">#ff8800</color>
+    <color name="red_light">#ff4444</color>
+    <color name="red_dark">#cc0000</color>
+    <color name="textColor">#cdcdcd</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="btn_style_1">#1874CD</color>
+    <color name="clr_cccccc">#cccccc</color>
+    <color name="clr_f5f4f3">#f5f4f3</color>
+    <color name="clr_ff0000">#ff0000</color>
+</resources>

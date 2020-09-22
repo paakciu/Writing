@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paintsize">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="paintcolor">
+        <item>黑色</item>
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>蓝绿色</item>
+        <item>灰色</item>
+    </string-array>
+</resources>
